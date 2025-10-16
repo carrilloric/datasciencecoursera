@@ -19,4 +19,4 @@ ggplot(mtcars, aes(x = wt, y = mpg)) +
   theme_minimal()
 
 # Guardar resultados
-saveRDS(modelo, "resultados/modelo.rds")
+saveRDS(modelo, "modelo.rds")
